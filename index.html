@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Images/logo.png">
+    <title>Yummmy</title>
+    <link rel="stylesheet" href="Css/all fontawsom.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body class="bg-black">
+    <nav class="d-flex">
+        <div class="item2 d-flex justify-content-between flex-column bg-black text-white p-3">
+            <ul class="p-3 overflow-hidden">
+                <li class="position-relative" id="searchLink">Search</li>
+                <li class="position-relative" id="categoriesLink">Categories</li>
+                <li class="position-relative" id="areaLink">Area</li>
+                <li class="position-relative" id="ingridiantLink">Ingredients</li>
+                <li class="position-relative" id="contactLink">Contact Us</li>
+            </ul>
+            <div class="">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe "></i>
+                <p>Copyright Â© 2019 All RightsReserved.</p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between flex-column item1 align-items-center ">
+            <div class="img-logo"><img src="Images/logo.png" alt="" class="w-100"></div>
+            <div class="bars" id="bars"><i class="fa-solid fa-bars fa-3x"></i></div>
+            <div class="">
+                <i class="fa-solid fa-share-nodes fa-2x"></i>
+                <i class="fa-solid fa-globe fa-2x"></i>
+            </div>
+        </div>
+
+    </nav>
+<div class="item5 d-flex justify-content-center align-items-center d-none"><div class="loader"></div></div>
+    
+            <div class="w-75 mx-auto py-5 d-none" id="searchPage">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <input type="text" placeholder="SearchByName" class="form-control" id="searchByNameInput">
+                        <span id="alart1" class="text-warning d-none">there is no result </span>
+                    </div>
+                    <div class="col-lg-6">
+                        <input type="text" placeholder="SearchByLetter" class="form-control" id="searchByLetterInput">
+                        <span id="alart2" class="text-warning d-none">Please search with one letter</span>
+                </div>
+            </div>
+            </div>
+        <div class="w-75 mx-auto py-5 text-white" id="detailesPage">
+            <div class="row" id="detailes">
+            </div>
+        </div>
+        <div class="w-75 mx-auto py-5" id="areaPage">
+            <div class="row " id="area" >
+            </div>
+        </div>
+          
+            <div class="width1 mx-auto py-5" id="CategoriesPage">
+                <div class="row " id="Categories" >
+                    
+                </div>
+            </div>
+            <div class="width1 mx-auto py-5 " id="ingridiantsPage">
+                <div  class="rounded-2 text-center cursor-pointer">
+                    <div class="row" id="ingridiants">
+                    
+                    </div>
+            </div>
+            </div>
+
+            <div class="width1 mx-auto py-5  " id="mealPage" >
+                <div class="alart1 d-none fs-1 text-white text-center"><p>There is No Result <span class="text-warning">Please try Again</span></p></div>
+                <div class="row gy-3 meals">
+            </div>
+            </div>
+            <div id="contactPage" class="w-75 mx-auto py-5 ">
+                <div class="" id="contact">
+                  
+                </div>
+            
+            
+    
+    <script src="Js/jquery.min.js"></script>
+    <script src="Js/main.js" type="module"></script>
+</body>
+</html>
